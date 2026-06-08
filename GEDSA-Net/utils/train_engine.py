@@ -8,7 +8,6 @@ from utils.optim import get_optim, adjust_lr
 from utils.test_engine import test_engine, ckpt_proc
 from thop import profile
 from torch.autograd import Variable
-from models.ReGrHDA.clip_loss import Return_itc
 
 def info_nce_loss(f_rt, f_gt, temperature=0.1):
     # Normalize
