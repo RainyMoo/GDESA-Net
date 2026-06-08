@@ -52,7 +52,7 @@ class PATH:
                 'val': self.DATA_PATH['vqa_region']+ '/align_8' + '/val2014',
                 'test': self.DATA_PATH['vqa_region'] + '/align_8' + '/test2015',
             },
-
+        }
         self.RAW_PATH = {
             'vqa': {
                 'train': self.DATA_PATH['vqa'] + '/raw' + '/v2_OpenEnded_mscoco_train2014_questions.json',
