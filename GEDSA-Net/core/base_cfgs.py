@@ -86,7 +86,11 @@ class BaseCfgs(PATH):
                 'FRCN_FEAT_SIZE': (100, 2048),
                 'GRID_FEAT_SIZE': (64, 2048),
                 'BBOX_FEAT_SIZE': (100, 5),
-            }
+            },
+            'vqa_grid': {
+                'GRID_FEAT_SIZE': (64, 2048),
+                'BBOX_FEAT_SIZE': (64, 5),
+            },
         }
 
         # Set if bbox_feat need be normalize by image size, default: False
