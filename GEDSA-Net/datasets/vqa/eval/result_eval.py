@@ -1,5 +1,5 @@
-from openvqa.datasets.vqa.eval.vqa import VQA
-from openvqa.datasets.vqa.eval.vqaEval import VQAEval
+from GDESA-Net.datasets.vqa.eval.vqa import VQA
+from GDESA-Net.datasets.vqa.eval.vqaEval import VQAEval
 import json, pickle
 import numpy as np
 
