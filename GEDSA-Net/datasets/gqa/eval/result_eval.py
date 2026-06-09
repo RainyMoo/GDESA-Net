@@ -1,9 +1,4 @@
-# --------------------------------------------------------
-# OpenVQA
-# Written by Yuhao Cui https://github.com/cuiyuhao1996
-# --------------------------------------------------------
-
-from GDESA-Net.datasets.gqa.eval.gqa_eval import GQAEval
+from datasets.gqa.eval.gqa_eval import GQAEval
 import json, pickle
 import numpy as np
 
